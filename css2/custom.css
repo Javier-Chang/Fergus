@@ -1,0 +1,103 @@
+p{
+	font-family: "Microsoft JhengHei";
+}
+footer, .navbar-default{
+	color:white;
+	background: rgb(150, 0, 20);
+	border-color:	#5F0404;
+}
+.navbar-default .navbar-brand , .navbar-default .navbar-nav > li > a{
+	color:white;
+}
+.navbar-default .navbar-brand:hover, .navbar-default .navbar-nav > li > a:hover{
+	color:yellow;
+}
+.btn-search, .btn-search:hover, .btn-search:active, .btn-search:focus{
+	border:none;
+	color:white;
+	background: orange;
+	border-color:orange;
+
+}
+#txtSearch{
+	font-size:90%;
+	height:90%;
+	/*width:100%;*/
+}
+#form-search > .form-group{
+	/*width:35%;*/
+}
+.text-muted{
+	color:white;
+}
+.intro-message > h1{
+	font-family: "Microsoft JhengHei";
+	color:rgb(245, 179, 9);	
+	text-shadow: -6px -8px -5px -5px rgba(34,0,0,100);
+}
+.navbar-nav > li > a{
+	font-size:120%;
+}
+.customBox{
+	font-size:120%;
+	background: black;
+	margin-left:0px;
+	margin-right:0px;
+}
+.customBox .thumbnail{
+	font-family: "Microsoft JhengHei";
+	background: black;
+	border:none;	
+}
+.customBox .thumbnail .caption h3{
+	text-align: left;
+	font-family: "Microsoft JhengHei";
+	color:white!important;
+}
+.customBox .thumbnail .caption p{
+	text-align: left;
+	color:white!important;
+}
+.developerTeam{
+	background: rgb(150, 0, 20);
+	margin:0;
+	border: 1px solid rgb(117, 14, 18);
+}
+.developerTeam .row{
+	margin:0;
+}
+.developerTeam img{
+	width:150px;
+	height:150px;
+}
+.developerTeam h2{
+	/*text-align: center;*/
+	color:white;
+	font-family: "Microsoft JhengHei";
+}
+.developerTeam .imgFB{
+	text-align:center;
+	margin-top:5px;
+	margin-bottom: 5px;
+}
+.bg-title{
+	padding-bottom: 15%;
+}
+.bg-title > span{
+	font-size:20px;
+	padding-top:15px;
+	padding-bottom:15px;
+	padding-right:20px;
+	padding-left:20px;
+	border-top-right-radius: 25%;
+	border-top-left-radius: 25%;
+	display: inline-block;
+	color:black;
+	background: white;	
+}
+.bg-title .row{
+	margin-left:0;
+	margin-right:0;
+	background: white;
+	color:black;
+}
